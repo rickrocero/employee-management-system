@@ -69,7 +69,7 @@ const addDept = () => {
                 throw err
             } else {
                 console.log(`You added ${deptName}!!`)
-                connection.query("SELECT * FROM department", (err, res) => {
+                connection.query("SELECT id AS 'ID', name AS 'Department Name' FROM department", (err, res) => {
                     if (err) {
                         throw err
                     } else {
