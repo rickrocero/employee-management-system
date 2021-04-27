@@ -42,7 +42,7 @@ const startApp = () => {
                 updateEmplRole()
                 break;
             case "Exit":
-                connection.end();
+                console.log("Good Bye")
                 break;
         };
     });

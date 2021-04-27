@@ -17,7 +17,9 @@ npm install
 
 ## Usage
 Feel free to fork
-            
+
+![Add Department Screenshot](Assets/addDept.png)
+
 ## License
 None
             
